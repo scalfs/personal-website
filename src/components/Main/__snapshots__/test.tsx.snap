@@ -1,16 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[` should render the heading 1`] = `
-<main>
+<main
+  class="bg-[#06092b]"
+>
   <h1>
     Vitor Escalfoni
   </h1>
   <h2>
     Software Engineer specialized in mobile app development.
   </h2>
-  <img
-    alt="A developer facing a screen with code"
-    src="/img/hero-illustration.svg"
-  />
 </main>
-`
+`;
