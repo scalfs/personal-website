@@ -1,17 +1,15 @@
-import * as S from './styles'
-
 const Main = ({
   title = 'Vitor Escalfoni',
   description = 'Software Engineer specialized in mobile app development.'
 }) => (
-  <S.Wrapper>
-    <S.Title>{title}</S.Title>
-    <S.Description>{description}</S.Description>
-    <S.Illustration
+  <main>
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <img
       src="/img/hero-illustration.svg"
       alt="A developer facing a screen with code"
     />
-  </S.Wrapper>
+  </main>
 )
 
 export default Main
