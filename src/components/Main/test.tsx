@@ -2,20 +2,13 @@ import { render, screen } from '@testing-library/react'
 
 import Main from '.'
 
-describe('', () => {
-  it('should render the heading', () => {
-    const { container } = render(<Main />)
+describe('<Main />', () => {
+  it('should render correctly and have proper roles', () => {
+    render(<Main />)
 
-    expect(
-      screen.getByRole('heading', { name: /vitor escalfoni/i })
-    ).toBeInTheDocument()
-
-    expect(container.firstChild).toMatchSnapshot()
-  })
-
-  it('should render the colors correctly', () => {
-    const { container } = render(<Main />)
-
-    expect(container.firstChild).toHaveStyle({ 'background-color': '#06092b' })
+    expect(screen.getByRole('banner')).toBeInTheDocument()
+    expect(screen.getByRole('navigation')).toBeInTheDocument()
+    expect(screen.getByRole('main')).toBeInTheDocument()
+    expect(screen.getByRole('contentinfo')).toBeInTheDocument()
   })
 })

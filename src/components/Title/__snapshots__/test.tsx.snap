@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Title /> should render the title 1`] = `
+<h1
+  class="mb-8 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl"
+>
+  Heading
+</h1>
+`

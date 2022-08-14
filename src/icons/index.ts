@@ -1,0 +1,6 @@
+export { default as IconGitHub } from './github'
+export { default as Icon } from './icon'
+export { default as IconLinkedIn } from './linkedin'
+export { default as IconMail } from './mail'
+export { default as IconMenu } from './menu'
+export { default as IconX } from './x'
