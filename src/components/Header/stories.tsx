@@ -6,6 +6,6 @@ export default {
   component: Header
 } as ComponentMeta<typeof Header>
 
-const Story: ComponentStory<typeof Header> = (args) => <Header {...args} />
+const Story: ComponentStory<typeof Header> = () => <Header />
 
 export const Default = Story.bind({})

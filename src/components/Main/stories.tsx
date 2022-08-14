@@ -6,6 +6,6 @@ export default {
   component: Main
 } as ComponentMeta<typeof Main>
 
-const Story: ComponentStory<typeof Main> = (args) => <Main {...args} />
+const Story: ComponentStory<typeof Main> = () => <Main />
 
 export const Basic = Story.bind({})
