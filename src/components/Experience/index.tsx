@@ -2,7 +2,7 @@ import Title from 'components/Title'
 import Jobs from 'components/Jobs'
 
 const Experience = () => (
-  <section className="space-y-8 py-28" id="experience">
+  <section className="space-y-4 py-28" id="experience">
     <Title>Work Experience</Title>
     <p>
       I had the opportunity to be part of teams developing apps since the

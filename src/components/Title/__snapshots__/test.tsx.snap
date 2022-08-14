@@ -2,7 +2,7 @@
 
 exports[`<Title /> should render the title 1`] = `
 <h1
-  class="mb-8 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl"
+  class="mb-4 text-4xl font-extrabold tracking-tight sm:mb-8 sm:text-5xl lg:text-6xl"
 >
   Heading
 </h1>

@@ -13,7 +13,7 @@ const Header = () => (
   <header>
     <Popover
       as="nav"
-      className="mx-auto max-w-5xl px-4 sm:px-6 sm:text-lg md:px-8"
+      className="absolute mx-auto w-full max-w-5xl px-4 sm:px-6 sm:text-lg md:px-8"
     >
       <div className="flex items-center pt-6 text-base">
         <div className="-mx-1 flex grow justify-between">
@@ -45,7 +45,7 @@ const Header = () => (
             </li>
           ))}
           <li>
-            <Button href="/Resume - Vitor.pdf">Resume</Button>
+            <Button href="/resume.pdf">Resume</Button>
           </li>
         </ol>
       </div>
@@ -93,7 +93,7 @@ const Header = () => (
               ))}
             </ol>
             <a
-              href="/Resume - Vitor.pdf"
+              href="/resume.pdf"
               className="block bg-slate-100 px-5 py-3 text-center text-lg font-medium text-blue-700 transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 focus:rounded-lg focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-700"
             >
               Resume

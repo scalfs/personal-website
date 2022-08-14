@@ -3,7 +3,7 @@
 exports[`<Header /> should render all the nav options 1`] = `
 <header>
   <nav
-    class="mx-auto max-w-5xl px-4 sm:px-6 sm:text-lg md:px-8"
+    class="absolute mx-auto w-full max-w-5xl px-4 sm:px-6 sm:text-lg md:px-8"
   >
     <div
       class="flex items-center pt-6 text-base"
@@ -74,7 +74,7 @@ exports[`<Header /> should render all the nav options 1`] = `
         <li>
           <a
             class="rounded-lg border border-slate-300 px-5 py-3 font-semibold text-blue-700 transition-colors duration-250 ease-in-out-cubic hover:border-blue-700 hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 undefined"
-            href="/Resume - Vitor.pdf"
+            href="/resume.pdf"
             target="_blank"
           >
             Resume

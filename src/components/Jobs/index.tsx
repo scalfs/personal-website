@@ -12,7 +12,7 @@ const experiences = [
     years: '2y',
     highlights: [
       'Built the app from scratch, collaborating with design and API teams.',
-      'Responsible for the development and release processes.',
+      'Responsible for the development and release processes of 3 apps.',
       'Guided coworkers on adopting Git workflows and Scrum.',
       'Provided training and mentorship to junior developers.'
     ]
@@ -94,6 +94,7 @@ const Jobs = () => {
             key={icon}
             id={`tab-${i}`}
             role="tab"
+            aria-label={`Tab ${company}`}
             aria-controls={`panel-${i}`}
             aria-selected={activeTabId === i}
             tabIndex={activeTabId === i ? 0 : -1}
@@ -104,7 +105,7 @@ const Jobs = () => {
             }`}
           >
             <div className="flex min-w-[1rem] items-center gap-2">
-              <img src={icon} className="w-4" aria-hidden />
+              <img src={icon} aria-hidden width={16} height={16} />
               <span className="hidden sm:block">{company}</span>
             </div>
             <p className="hidden justify-center rounded bg-slate-200 px-1 py-0.5 text-center text-xs font-medium text-slate-500 md:block">
