@@ -21,12 +21,12 @@ const About = () => (
           management tech company with customers from all over the world.
         </p>
         <p>
-          I&apos;m constantly learning new things, specializing in some fronts
-          while broadening my knowledge in others. When I&apos;m not working or
-          in front of the computer, you may find me running, riding my bike
-          everywhere, and spending time outdoors in nature. Otherwise, I&apos;m
-          mostly watching movies/series with my wife, cooking, playing the
-          guitar, or entertaining our cat Juju.
+          I&apos;m constantly learning new things, specializing in frontend
+          while broadening my knowledge in other areas. When I&apos;m not
+          working or in front of the computer, you may find me running, riding
+          my bike everywhere, and spending time outdoors in nature. Otherwise,
+          I&apos;m mostly watching movies/series with my wife, cooking, playing
+          the guitar, or entertaining our cat Juju.
         </p>
       </div>
 
@@ -36,7 +36,7 @@ const About = () => (
           height={400}
           src="/img/profile.png"
           alt="Picture of the author. A half smiling professional man."
-          className="squircle bg-gradient-to-r from-[#4586e2] to-[#214bc1] object-cover object-center grayscale transition duration-250 ease-in-out-cubic hover:grayscale-0"
+          className="squircle bg-gradient-to-r from-[#4586e2] to-[#214bc1] object-cover object-center grayscale transition-colors duration-250 ease-in-out-cubic hover:grayscale-0"
         />
       </div>
     </div>

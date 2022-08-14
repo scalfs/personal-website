@@ -23,7 +23,7 @@ exports[`<About /> should render the section 1`] = `
         Started my professional journey as an intern at a large e-commerce company, being hired shortly after. Had a great experience working with app development and felt like I'd found my calling. Later, I had a terrific opportunity to lead the mobile project on an inventory management tech company with customers from all over the world.
       </p>
       <p>
-        I'm constantly learning new things, specializing in some fronts while broadening my knowledge in others. When I'm not working or in front of the computer, you may find me running, riding my bike everywhere, and spending time outdoors in nature. Otherwise, I'm mostly watching movies/series with my wife, cooking, playing the guitar, or entertaining our cat Juju.
+        I'm constantly learning new things, specializing in frontend while broadening my knowledge in other areas. When I'm not working or in front of the computer, you may find me running, riding my bike everywhere, and spending time outdoors in nature. Otherwise, I'm mostly watching movies/series with my wife, cooking, playing the guitar, or entertaining our cat Juju.
       </p>
     </div>
     <div
@@ -44,7 +44,7 @@ exports[`<About /> should render the section 1`] = `
         </span>
         <img
           alt="Picture of the author. A half smiling professional man."
-          class="squircle bg-gradient-to-r from-[#4586e2] to-[#214bc1] object-cover object-center grayscale transition duration-250 ease-in-out-cubic hover:grayscale-0"
+          class="squircle bg-gradient-to-r from-[#4586e2] to-[#214bc1] object-cover object-center grayscale transition-colors duration-250 ease-in-out-cubic hover:grayscale-0"
           data-nimg="intrinsic"
           decoding="async"
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
