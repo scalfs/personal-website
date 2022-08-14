@@ -2,11 +2,11 @@
 
 exports[`<Experience /> should render the section 1`] = `
 <section
-  class="space-y-8 py-28"
+  class="space-y-4 py-28"
   id="experience"
 >
   <h1
-    class="mb-8 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl"
+    class="mb-4 text-4xl font-extrabold tracking-tight sm:mb-8 sm:text-5xl lg:text-6xl"
   >
     Work Experience
   </h1>
@@ -23,6 +23,7 @@ exports[`<Experience /> should render the section 1`] = `
     >
       <button
         aria-controls="panel-0"
+        aria-label="Tab SlabWare"
         aria-selected="true"
         class="flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 bg-slate-100"
         id="tab-0"
@@ -34,8 +35,9 @@ exports[`<Experience /> should render the section 1`] = `
         >
           <img
             aria-hidden="true"
-            class="w-4"
+            height="16"
             src="img/icon-slab.svg"
+            width="16"
           />
           <span
             class="hidden sm:block"
@@ -51,6 +53,7 @@ exports[`<Experience /> should render the section 1`] = `
       </button>
       <button
         aria-controls="panel-1"
+        aria-label="Tab Wine"
         aria-selected="false"
         class="flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 "
         id="tab-1"
@@ -62,8 +65,9 @@ exports[`<Experience /> should render the section 1`] = `
         >
           <img
             aria-hidden="true"
-            class="w-4"
+            height="16"
             src="img/logo-wine.svg"
+            width="16"
           />
           <span
             class="hidden sm:block"
@@ -113,7 +117,7 @@ exports[`<Experience /> should render the section 1`] = `
             Built the app from scratch, collaborating with design and API teams.
           </li>
           <li>
-            Responsible for the development and release processes.
+            Responsible for the development and release processes of 3 apps.
           </li>
           <li>
             Guided coworkers on adopting Git workflows and Scrum.
