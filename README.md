@@ -6,7 +6,7 @@
   vitorescalfoni.com
 </h1>
 <p align="center">
-  My <a href="https://vitorescalfoni.com" target="_blank">personal website</a> built with <a href="https://www.nextjs.org/" target="_blank">NextJS</a> and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a>
+  My <a href="https://vitorescalfoni.com" target="_blank">personal website</a> built with <a href="https://www.nextjs.org/" target="_blank">Next.js</a> and <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>.
 </p>
 
 <p align="center">
@@ -21,8 +21,8 @@
 This project uses the following technologies:
 
 - [TypeScript](https://www.typescriptlang.org/)
-- [NextJS](https://nextjs.org/)
-- [Styled Components](https://styled-components.com/)
+- [Next.js](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 - [Storybook](https://storybook.js.org/)
