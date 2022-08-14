@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<About /> should render the section 1`] = `
+<section
+  class="pt-8 pb-28"
+  id="about"
+>
+  <div
+    class="md:flex md:flex-row-reverse md:gap-12"
+  >
+    <div
+      class="mb-8 space-y-4 text-justify md:mb-0 md:w-3/5"
+    >
+      <h1
+        class="mb-8 text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl"
+      >
+        About Me
+      </h1>
+      <p>
+        I had some contact with programming as a teenager, but it was during my graduation that my interest in it developed. I have an Electrical Engineering degree on which I spent most of my time chasing programming projects. As a research lab member, I worked with robotics allied to computer vision and did my final project in speech processing using recurrent neural networks.
+      </p>
+      <p>
+        Started my professional journey as an intern at a large e-commerce company, being hired shortly after. Had a great experience working with mobile development there and have been deepening my craft ever since. I'm constantly learning new things, specializing in some fronts while broadening knowledge in others.
+      </p>
+      <p>
+        When I'm not working or in front of the computer, you may find me running, riding my bike everywhere, and spending time outdoors in nature. Otherwise, I'm watching movies/series with my wife, cooking, playing the guitar, or entertaining our cat Juju.
+      </p>
+    </div>
+    <div
+      class="m-auto h-fit w-3/5 transition-transform duration-250 ease-in-out-cubic hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none md:w-2/5"
+      style="clip-path: url(#squircleClip);"
+    >
+      <span
+        style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+      >
+        <span
+          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27400%27%20height=%27400%27/%3e"
+            style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+          />
+        </span>
+        <img
+          alt="Picture of the author. A half smiling professional man."
+          class="bg-gradient-to-r from-[#4586e2] to-[#214bc1] object-cover object-center grayscale transition duration-250 ease-in-out-cubic hover:grayscale-0"
+          data-nimg="intrinsic"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+        />
+        <noscript />
+      </span>
+    </div>
+  </div>
+  <svg
+    aria-hidden="true"
+    height="10"
+    viewBox="0 0 10 10"
+    width="10"
+  >
+    <clippath
+      clipPathUnits="objectBoundingBox"
+      id="squircleClip"
+    >
+      <path
+        d="M 0,0.5 C 0,0 0,0 0.5,0 S 1,0 1,0.5 1,1 0.5,1 0,1 0,0.5"
+        fill="red"
+        stroke="none"
+      />
+    </clippath>
+  </svg>
+</section>
+`
