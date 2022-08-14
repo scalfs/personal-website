@@ -89,6 +89,8 @@ exports[`<Jobs /> should render the heading 1`] = `
         <a
           class="link-underline relative ml-1 rounded tracking-tight text-blue-700  focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
           href="https://www.slabware.com"
+          rel="noreferrer"
+          target="_blank"
         >
           SlabWare
         </a>
@@ -132,6 +134,8 @@ exports[`<Jobs /> should render the heading 1`] = `
         <a
           class="link-underline relative ml-1 rounded tracking-tight text-blue-700  focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
           href="https://www.wine.com.br"
+          rel="noreferrer"
+          target="_blank"
         >
           Wine
         </a>

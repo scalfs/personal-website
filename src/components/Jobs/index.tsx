@@ -132,6 +132,8 @@ const Jobs = () => {
                 {title} @
                 <a
                   href={companyUrl}
+                  target="_blank"
+                  rel="noreferrer"
                   className="link-underline relative ml-1 rounded tracking-tight text-blue-700  focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
                 >
                   {company}
