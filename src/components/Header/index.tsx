@@ -10,10 +10,10 @@ const navigation = [
 ]
 
 const Header = () => (
-  <header>
+  <header className="relative mx-auto max-w-5xl">
     <Popover
       as="nav"
-      className="absolute mx-auto w-full max-w-5xl px-4 sm:px-6 sm:text-lg md:px-8"
+      className="absolute w-full px-4 sm:px-6 sm:text-lg md:px-8"
     >
       <div className="flex items-center pt-6 text-base">
         <div className="-mx-1 flex grow justify-between">

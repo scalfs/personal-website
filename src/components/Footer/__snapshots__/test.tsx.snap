@@ -76,10 +76,12 @@ exports[`<Footer /> should render the section 1`] = `
       >
         <svg
           fill="none"
+          height="24"
           role="img"
           stroke="currentColor"
           stroke-width="2"
           viewBox="0 0 24 24"
+          width="24"
           xmlns="http://www.w3.org/2000/svg"
         >
           <title>

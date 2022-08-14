@@ -1,9 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Header /> should render all the nav options 1`] = `
-<header>
+<header
+  class="relative mx-auto max-w-5xl"
+>
   <nav
-    class="absolute mx-auto w-full max-w-5xl px-4 sm:px-6 sm:text-lg md:px-8"
+    class="absolute w-full px-4 sm:px-6 sm:text-lg md:px-8"
   >
     <div
       class="flex items-center pt-6 text-base"
