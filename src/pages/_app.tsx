@@ -1,5 +1,7 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
+import { DefaultSeo } from 'next-seo'
+import SEO from '../../next-seo.config'
 
 import 'styles/globals.css'
 
@@ -15,6 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
           name="description"
           content="Vitor Escalfoni is a software engineer specialized in mobile app development with TypeScript and React Native who thrives on crafting great user experiences."
         />
+        <DefaultSeo {...SEO} />
       </Head>
       <Component {...pageProps} />
     </>
