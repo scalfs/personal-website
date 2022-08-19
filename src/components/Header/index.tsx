@@ -1,7 +1,8 @@
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import { IconMenu, IconX } from 'icons'
+import { Popover, Transition as TransitionHUI } from '@headlessui/react'
 import Button from 'components/Button'
+import Transition, { Transitions } from 'components/Transition'
+import { IconMenu, IconX } from 'icons'
+import { Fragment } from 'react'
 
 const navigation = [
   { name: 'About', href: '#about' },
@@ -15,50 +16,56 @@ const Header = () => (
       as="nav"
       className="absolute w-full px-4 sm:px-6 sm:text-lg md:px-8"
     >
-      <div className="flex items-center pt-6 text-base">
-        <div className="-mx-1 flex grow justify-between">
-          <a
-            href="#"
-            aria-label="Home"
-            className="rounded-md py-1 px-2 text-2xl font-semibold transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
-          >
-            ~/
-          </a>
-
-          <Popover.Button
-            title="Menu"
-            className="h-10 w-10 rounded-md p-2 transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 sm:hidden"
-          >
-            <IconMenu />
-          </Popover.Button>
-        </div>
-
-        <ol className="hidden space-x-6 sm:flex">
-          {navigation.map(({ name, href }) => (
-            <li key={name}>
+      <Transition type="none">
+        <div className="flex items-center pt-6 text-base">
+          <div className="-mx-1 flex grow justify-between">
+            <Transition isChild type="fadedown">
               <a
-                href={href}
-                className="link-underline rounded-md py-2 font-medium focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50"
+                href="#"
+                aria-label="Home"
+                className="rounded-md py-1 px-2 text-2xl font-semibold transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
               >
-                {name}
+                ~/
               </a>
-            </li>
-          ))}
-          <li>
-            <Button href="/resume.pdf">Resume</Button>
-          </li>
-        </ol>
-      </div>
+            </Transition>
 
-      <Transition
-        as={Fragment}
-        enter="duration-150 ease-out"
-        enterFrom="opacity-0 scale-95"
-        enterTo="opacity-100 scale-100"
-        leave="duration-100 ease-in"
-        leaveFrom="opacity-100 scale-100"
-        leaveTo="opacity-0 scale-95"
-      >
+            <Transition isChild type="fadedown" delay={500}>
+              <Popover.Button
+                title="Menu"
+                className="h-10 w-10 rounded-md p-2 transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 sm:hidden"
+              >
+                <IconMenu />
+              </Popover.Button>
+            </Transition>
+          </div>
+
+          <ol className="hidden space-x-6 sm:flex">
+            {navigation.map(({ name, href }, i) => (
+              <li key={name}>
+                <Transition isChild type="fadedown" delay={(i + 1) * 200}>
+                  <a
+                    href={href}
+                    className="link-underline rounded-md py-2 font-medium focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50"
+                  >
+                    {name}
+                  </a>
+                </Transition>
+              </li>
+            ))}
+            <li>
+              <Transition
+                isChild
+                type="fadedown"
+                delay={(navigation.length + 1) * 200}
+              >
+                <Button href="/resume.pdf">Resume</Button>
+              </Transition>
+            </li>
+          </ol>
+        </div>
+      </Transition>
+
+      <TransitionHUI as={Fragment} {...Transitions.popover}>
         <Popover.Panel
           focus
           className="absolute inset-x-0 top-0 z-10 origin-top-right bg-slate-50 p-2 transition sm:hidden"
@@ -79,7 +86,6 @@ const Header = () => (
                 <IconX />
               </Popover.Button>
             </div>
-
             <ol className="mb-2 flex flex-col space-y-4 p-2">
               {navigation.map(({ name, href }) => (
                 <li key={name}>
@@ -100,7 +106,7 @@ const Header = () => (
             </a>
           </div>
         </Popover.Panel>
-      </Transition>
+      </TransitionHUI>
     </Popover>
   </header>
 )

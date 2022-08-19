@@ -7,33 +7,47 @@ exports[`<Hero /> should render the heading 1`] = `
   <div
     class="my-auto max-w-xl space-y-4 text-justify text-xl sm:text-2xl"
   >
-    <h1
-      class=""
+    <div
+      class="transition ease-in-out-cubic duration-500 motion-reduce:transform-none opacity-0 translate-y-4"
+      style="transition-delay: undefinedms;"
     >
-      Hi, there! My name is
-    </h1>
-    <h2
-      class="bg-gradient-to-r from-[#4586e2] to-[#214bc1] bg-clip-text text-6xl font-extrabold leading-none tracking-tight text-transparent sm:text-[5rem]"
+      <h1>
+        Hi, there! My name is
+      </h1>
+    </div>
+    <div
+      class="transition ease-in-out-cubic duration-500 motion-reduce:transform-none opacity-0 translate-y-4"
+      style="transition-delay: 200ms;"
     >
-      Vitor Escalfoni.
-    </h2>
-    <h3>
-      I'm a 
-      <span
-        class="font-medium"
+      <h2
+        class="bg-gradient-to-r from-[#4586e2] to-[#214bc1] bg-clip-text text-6xl font-extrabold leading-none tracking-tight text-transparent sm:text-[5rem]"
       >
-        software engineer
-      </span>
-       
-      specialized in
-       
-      <span
-        class="font-medium"
-      >
-        mobile app development,
-      </span>
-       passionate about crafting great user experiences and implementing beautiful designs.
-    </h3>
+        Vitor Escalfoni.
+      </h2>
+    </div>
+    <div
+      class="transition ease-in-out-cubic duration-500 motion-reduce:transform-none opacity-0 translate-y-4"
+      style="transition-delay: 400ms;"
+    >
+      <h3>
+        I'm a 
+        <span
+          class="font-medium"
+        >
+          software engineer
+        </span>
+         
+        specialized in
+         
+        <span
+          class="font-medium"
+        >
+          mobile app development,
+        </span>
+         
+        passionate about crafting great user experiences and implementing beautiful designs.
+      </h3>
+    </div>
   </div>
 </section>
 `
