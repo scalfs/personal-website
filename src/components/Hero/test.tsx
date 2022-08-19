@@ -3,11 +3,11 @@ import { render, screen } from '@testing-library/react'
 import Hero from '.'
 
 describe('<Hero />', () => {
-  it('should render the heading', () => {
+  it('should render the heading', async () => {
     const { container } = render(<Hero />)
 
     expect(
-      screen.getByRole('heading', { name: /Vitor Escalfoni/i })
+      await screen.findByRole('heading', { name: /Vitor Escalfoni/i })
     ).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
