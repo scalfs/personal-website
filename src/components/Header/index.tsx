@@ -1,4 +1,4 @@
-import { Popover, Transition as HUITransition } from '@headlessui/react'
+import { Popover, Transition as TransitionHUI } from '@headlessui/react'
 import Button from 'components/Button'
 import Transition, { Transitions } from 'components/Transition'
 import { IconMenu, IconX } from 'icons'
@@ -29,7 +29,7 @@ const Header = () => (
               </a>
             </Transition>
 
-            <Transition isChild type="fadedown" delay={250}>
+            <Transition isChild type="fadedown" delay={500}>
               <Popover.Button
                 title="Menu"
                 className="h-10 w-10 rounded-md p-2 transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 sm:hidden"
@@ -42,7 +42,7 @@ const Header = () => (
           <ol className="hidden space-x-6 sm:flex">
             {navigation.map(({ name, href }, i) => (
               <li key={name}>
-                <Transition isChild type="fadedown" delay={(i + 1) * 250}>
+                <Transition isChild type="fadedown" delay={(i + 1) * 200}>
                   <a
                     href={href}
                     className="link-underline rounded-md py-2 font-medium focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50"
@@ -56,7 +56,7 @@ const Header = () => (
               <Transition
                 isChild
                 type="fadedown"
-                delay={(navigation.length + 1) * 250}
+                delay={(navigation.length + 1) * 200}
               >
                 <Button href="/resume.pdf">Resume</Button>
               </Transition>
@@ -65,7 +65,7 @@ const Header = () => (
         </div>
       </Transition>
 
-      <HUITransition as={Fragment} {...Transitions.popover}>
+      <TransitionHUI as={Fragment} {...Transitions.popover}>
         <Popover.Panel
           focus
           className="absolute inset-x-0 top-0 z-10 origin-top-right bg-slate-50 p-2 transition sm:hidden"
@@ -106,7 +106,7 @@ const Header = () => (
             </a>
           </div>
         </Popover.Panel>
-      </HUITransition>
+      </TransitionHUI>
     </Popover>
   </header>
 )

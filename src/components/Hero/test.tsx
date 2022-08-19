@@ -7,7 +7,11 @@ describe('<Hero />', () => {
     const { container } = render(<Hero />)
 
     expect(
-      await screen.findByRole('heading', { name: /Vitor Escalfoni/i })
+      await screen.findByRole(
+        'heading',
+        { name: /Vitor Escalfoni/i },
+        { timeout: 1500 }
+      )
     ).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
