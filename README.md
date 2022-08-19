@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/github/deployments/scalfs/personal-website/production?label=vercel&logo=vercel&logoColor=white" alt="Vercel Status" />
 </p>
 
-![demo](https://raw.githubusercontent.com/scalfs/personal-website/main/public/demo.png)
+![demo](https://raw.githubusercontent.com/scalfs/personal-website/main/public/og.png)
 
 
 ## What is inside?
