@@ -42,7 +42,7 @@ const Header = () => (
           <ol className="hidden space-x-6 sm:flex">
             {navigation.map(({ name, href }, i) => (
               <li key={name}>
-                <Transition isChild type="fadedown" delay={(i + 1) * 200}>
+                <Transition isChild type="fadedown" delay={(i + 1) * 150}>
                   <a
                     href={href}
                     className="link-underline rounded-lg py-2 font-medium focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50"
@@ -56,7 +56,7 @@ const Header = () => (
               <Transition
                 isChild
                 type="fadedown"
-                delay={(navigation.length + 1) * 200}
+                delay={(navigation.length + 1) * 150}
               >
                 <Button href="/resume.pdf">Resume</Button>
               </Transition>
