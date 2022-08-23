@@ -43,8 +43,8 @@ exports[`<About /> should render the section 1`] = `
           />
         </span>
         <img
-          alt="Picture of the author. A half smiling professional man."
-          class="squircle bg-gradient-to-r from-[#4586e2] to-[#214bc1] object-cover object-center grayscale transition-colors duration-250 ease-in-out-cubic hover:grayscale-0"
+          alt="Picture of the author with a serious yet welcoming expression."
+          class="rounded-lg bg-gradient-to-r from-[#4586e2] to-[#214bc1] object-cover object-center grayscale transition duration-250 ease-in-out-cubic hover:grayscale-0"
           data-nimg="intrinsic"
           decoding="async"
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -54,22 +54,5 @@ exports[`<About /> should render the section 1`] = `
       </span>
     </div>
   </div>
-  <svg
-    aria-hidden="true"
-    height="10"
-    viewBox="0 0 10 10"
-    width="10"
-  >
-    <clippath
-      clipPathUnits="objectBoundingBox"
-      id="squircleClip"
-    >
-      <path
-        d="M 0,0.5 C 0,0 0,0 0.5,0 S 1,0 1,0.5 1,1 0.5,1 0,1 0,0.5"
-        fill="red"
-        stroke="none"
-      />
-    </clippath>
-  </svg>
 </section>
-`
+`;

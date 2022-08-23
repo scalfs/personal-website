@@ -34,27 +34,17 @@ const About = () => {
             playing the guitar, or entertaining our cat Juju.
           </p>
         </div>
-
+        {/* transition-transform duration-250 ease-in-out-cubic hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none */}
         <div className="m-auto w-3/5 transition-transform duration-250 ease-in-out-cubic hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none md:w-2/5">
           <Image
             width={400}
             height={400}
             src="/img/profile.png"
-            alt="Picture of the author. A half smiling professional man."
-            className="squircle bg-gradient-to-r from-[#4586e2] to-[#214bc1] object-cover object-center grayscale transition-colors duration-250 ease-in-out-cubic hover:grayscale-0"
+            alt="Picture of the author with a serious yet welcoming expression."
+            className="rounded-lg bg-gradient-to-r from-[#4586e2] to-[#214bc1] object-cover object-center grayscale transition duration-250 ease-in-out-cubic hover:grayscale-0"
           />
         </div>
       </div>
-
-      <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden>
-        <clipPath id="squircleClip" clipPathUnits="objectBoundingBox">
-          <path
-            fill="red"
-            stroke="none"
-            d="M 0,0.5 C 0,0 0,0 0.5,0 S 1,0 1,0.5 1,1 0.5,1 0,1 0,0.5"
-          />
-        </clipPath>
-      </svg>
     </section>
   )
 }

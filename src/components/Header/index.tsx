@@ -18,12 +18,12 @@ const Header = () => (
     >
       <Transition type="none">
         <div className="flex items-center pt-6 text-base">
-          <div className="-mx-1 flex grow justify-between">
+          <div className="-mx-1 flex grow items-center justify-between">
             <Transition isChild type="fadedown">
               <a
                 href="#"
                 aria-label="Home"
-                className="rounded-md py-1 px-2 text-2xl font-semibold transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
+                className="rounded-lg py-1 px-2 text-2xl font-semibold transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
               >
                 ~/
               </a>
@@ -45,7 +45,7 @@ const Header = () => (
                 <Transition isChild type="fadedown" delay={(i + 1) * 200}>
                   <a
                     href={href}
-                    className="link-underline rounded-md py-2 font-medium focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50"
+                    className="link-underline rounded-lg py-2 font-medium focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50"
                   >
                     {name}
                   </a>
@@ -74,14 +74,14 @@ const Header = () => (
             <div className="mb-2 flex items-center justify-between px-5 pt-4">
               <Popover.Button
                 aria-label="Home"
-                className="-ml-3 rounded-md py-1 px-3 text-2xl font-semibold transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
+                className="-ml-3 rounded-lg py-1 px-3 text-2xl font-semibold transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
               >
                 ~/
               </Popover.Button>
 
               <Popover.Button
                 aria-label="Close Menu"
-                className="-mr-2 h-10 w-10 rounded-md p-2 transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
+                className="-mr-2 h-10 w-10 rounded-lg p-2 transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
               >
                 <IconX />
               </Popover.Button>
@@ -91,7 +91,7 @@ const Header = () => (
                 <li key={name}>
                   <a
                     href={href}
-                    className="rounded-md px-3 py-2 font-medium transition-colors duration-250 ease-in-out-cubic first-letter:text-lg hover:bg-blue-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
+                    className="rounded-lg px-3 py-2 font-medium transition-colors duration-250 ease-in-out-cubic first-letter:text-lg hover:bg-blue-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
                   >
                     {name}
                   </a>
