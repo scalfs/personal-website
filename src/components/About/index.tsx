@@ -35,13 +35,14 @@ const About = () => {
           </p>
         </div>
         {/* transition-transform duration-250 ease-in-out-cubic hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none */}
-        <div className="m-auto w-3/5 transition-transform duration-250 ease-in-out-cubic hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none md:w-2/5">
+        <div className="group relative m-auto w-3/5 md:w-2/5">
+          <div className="absolute -bottom-2 -left-4 aspect-square w-full rounded-lg bg-slate-200 transition-transform duration-250 ease-in-out-cubic group-hover:-translate-y-2 group-hover:translate-x-2 motion-reduce:transition-none motion-reduce:group-hover:transform-none" />
           <Image
             width={400}
             height={400}
             src="/img/profile.png"
             alt="Picture of the author with a serious yet welcoming expression."
-            className="rounded-lg bg-gradient-to-r from-[#4586e2] to-[#214bc1] object-cover object-center grayscale transition duration-250 ease-in-out-cubic hover:grayscale-0"
+            className="rounded-lg bg-gradient-to-r from-[#4586e2] to-[#214bc1] object-cover grayscale transition duration-250 ease-in-out-cubic group-hover:grayscale-0"
           />
         </div>
       </div>
