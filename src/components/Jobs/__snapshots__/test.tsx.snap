@@ -117,48 +117,6 @@ exports[`<Jobs /> should render the heading 1`] = `
         </li>
       </ul>
     </div>
-    <div
-      aria-hidden="true"
-      aria-labelledby="tab-1"
-      class="rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
-      hidden=""
-      id="panel-1"
-      role="tabpanel"
-      tabindex="-1"
-    >
-      <h2
-        class="mt-1 text-2xl font-semibold"
-      >
-        Mobile Developer
-         @
-        <a
-          class="link-underline relative ml-1 rounded tracking-tight text-blue-700  focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
-          href="https://www.wine.com.br"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Wine
-        </a>
-      </h2>
-      <p
-        class="mb-4"
-      >
-        Ago, 2018 - Dez, 2019
-      </p>
-      <ul
-        class="list-inside list-disc space-y-2 leading-snug text-slate-700"
-      >
-        <li>
-          Started as an intern in the app team during its initial stage.
-        </li>
-        <li>
-          Implemented several features, including native payment integration.
-        </li>
-        <li>
-          Onboarded new colleagues, instructing them on project standards.
-        </li>
-      </ul>
-    </div>
   </div>
 </div>
 `

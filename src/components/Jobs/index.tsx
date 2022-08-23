@@ -1,3 +1,4 @@
+import Transition from 'components/Transition'
 import { KeyboardEvent, useEffect, useRef, useState } from 'react'
 
 const experiences = [
@@ -118,34 +119,35 @@ const Jobs = () => {
       <div className="mx-auto rounded-r-lg p-4">
         {experiences.map(
           ({ title, company, companyUrl, range, highlights }, i) => (
-            <div
-              key={company}
-              id={`panel-${i}`}
-              role="tabpanel"
-              aria-labelledby={`tab-${i}`}
-              hidden={activeTabId !== i}
-              aria-hidden={activeTabId !== i}
-              tabIndex={activeTabId === i ? 0 : -1}
-              className="rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
-            >
-              <h2 className="mt-1 text-2xl font-semibold">
-                {title} @
-                <a
-                  href={companyUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="link-underline relative ml-1 rounded tracking-tight text-blue-700  focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
-                >
-                  {company}
-                </a>
-              </h2>
-              <p className="mb-4">{range}</p>
-              <ul className="list-inside list-disc space-y-2 leading-snug text-slate-700">
-                {highlights.map((txt) => (
-                  <li key={txt}>{txt}</li>
-                ))}
-              </ul>
-            </div>
+            <Transition key={company} show={activeTabId === i} type="fade">
+              <div
+                id={`panel-${i}`}
+                role="tabpanel"
+                aria-labelledby={`tab-${i}`}
+                hidden={activeTabId !== i}
+                aria-hidden={activeTabId !== i}
+                tabIndex={activeTabId === i ? 0 : -1}
+                className="rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
+              >
+                <h2 className="mt-1 text-2xl font-semibold">
+                  {title} @
+                  <a
+                    href={companyUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="link-underline relative ml-1 rounded tracking-tight text-blue-700  focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
+                  >
+                    {company}
+                  </a>
+                </h2>
+                <p className="mb-4">{range}</p>
+                <ul className="list-inside list-disc space-y-2 leading-snug text-slate-700">
+                  {highlights.map((txt) => (
+                    <li key={txt}>{txt}</li>
+                  ))}
+                </ul>
+              </div>
+            </Transition>
           )
         )}
       </div>

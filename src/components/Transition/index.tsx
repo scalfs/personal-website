@@ -2,17 +2,17 @@ import { Transition as HUITransition } from '@headlessui/react'
 import { Fragment, useEffect, useRef, useState } from 'react'
 
 interface Props {
+  show?: boolean
   delay?: number
-  isChild?: boolean
   timeout?: number
+  isChild?: boolean
   children: React.ReactNode
   type: keyof typeof Transitions
 }
 
 export const Transitions = {
   popover: {
-    enter:
-      'transition duration-50 ease-in-out-cubic motion-reduce:transform-none',
+    enter: 'duration-50 ease-in-out-cubic motion-reduce:transform-none',
     enterFrom: 'opacity-0 scale-95',
     enterTo: 'opacity-100 scale-100',
     leave: 'duration-100 ease-in-out-cubic',
@@ -20,20 +20,29 @@ export const Transitions = {
     leaveTo: 'opacity-0 scale-95'
   },
   fadeup: {
-    enter: `transition ease-in-out-cubic duration-500 motion-reduce:transform-none`,
+    enter: `duration-300 ease-in-out-cubic motion-reduce:transform-none`,
     enterFrom: 'opacity-0 translate-y-4',
     enterTo: 'opacity-100 translate-y-0'
   },
   fadedown: {
-    enter: `transition ease-in-out-cubic duration-500 motion-reduce:transform-none`,
+    enter: `duration-300 ease-in-out-cubic motion-reduce:transform-none`,
     enterFrom: 'opacity-0 -translate-y-4',
     enterTo: 'opacity-100 translate-y-0'
+  },
+  fade: {
+    enter: 'duration-250 ease-in-out-cubic',
+    enterFrom: 'opacity-0',
+    enterTo: 'opacity-100',
+    leave: 'duration-250 ease-in-out-cubic',
+    leaveFrom: 'opacity-100',
+    leaveTo: 'opacity-0'
   },
   none: {}
 }
 
 const Transition: React.FC<Props> = ({
   type,
+  show,
   children,
   isChild,
   delay,
@@ -61,7 +70,11 @@ const Transition: React.FC<Props> = ({
       {children}
     </HUITransition.Child>
   ) : (
-    <HUITransition as={Fragment} show={isMounted} {...Transitions[type]}>
+    <HUITransition
+      as={Fragment}
+      show={show ?? isMounted}
+      {...Transitions[type]}
+    >
       {children}
     </HUITransition>
   )
