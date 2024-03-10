@@ -23,12 +23,42 @@ exports[`<Experience /> should render the section 1`] = `
     >
       <button
         aria-controls="panel-0"
-        aria-label="Tab SlabWare"
+        aria-label="Tab Praxent"
         aria-selected="true"
         class="flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 bg-slate-100"
         id="tab-0"
         role="tab"
         tabindex="0"
+      >
+        <div
+          class="flex min-w-[1rem] items-center gap-2"
+        >
+          <img
+            aria-hidden="true"
+            height="16"
+            src="img/praxent-icon.webp"
+            width="16"
+          />
+          <span
+            class="hidden sm:block"
+          >
+            Praxent
+          </span>
+        </div>
+        <p
+          class="hidden justify-center rounded bg-slate-200 px-1 py-0.5 text-center text-xs font-medium text-slate-500 md:block"
+        >
+          1y+
+        </p>
+      </button>
+      <button
+        aria-controls="panel-1"
+        aria-label="Tab SlabWare"
+        aria-selected="false"
+        class="flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 "
+        id="tab-1"
+        role="tab"
+        tabindex="-1"
       >
         <div
           class="flex min-w-[1rem] items-center gap-2"
@@ -48,15 +78,15 @@ exports[`<Experience /> should render the section 1`] = `
         <p
           class="hidden justify-center rounded bg-slate-200 px-1 py-0.5 text-center text-xs font-medium text-slate-500 md:block"
         >
-          2y
+          2y+
         </p>
       </button>
       <button
-        aria-controls="panel-1"
+        aria-controls="panel-2"
         aria-label="Tab Wine"
         aria-selected="false"
         class="flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 "
-        id="tab-1"
+        id="tab-2"
         role="tab"
         tabindex="-1"
       >
@@ -78,17 +108,17 @@ exports[`<Experience /> should render the section 1`] = `
         <p
           class="hidden justify-center rounded bg-slate-200 px-1 py-0.5 text-center text-xs font-medium text-slate-500 md:block"
         >
-          1y
+          1y+
         </p>
       </button>
     </div>
     <div
-      class="mx-auto rounded-r-lg p-4"
+      class="mx-auto items-start rounded-r-lg p-4"
     >
       <div
         aria-hidden="false"
         aria-labelledby="tab-0"
-        class="rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
+        class="w-full rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
         id="panel-0"
         role="tabpanel"
         tabindex="0"
@@ -96,36 +126,36 @@ exports[`<Experience /> should render the section 1`] = `
         <h2
           class="mt-1 text-2xl font-semibold"
         >
-          Mobile Developer
+          Senior Software Engineer
            @
           <a
             class="link-underline relative ml-1 rounded tracking-tight text-blue-700  focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
-            href="https://www.slabware.com"
+            href="https://www.praxent.com"
             rel="noreferrer"
             target="_blank"
           >
-            SlabWare
+            Praxent
           </a>
         </h2>
         <p
           class="mb-4"
         >
-          Jan, 2020 - Feb, 2022
+          Jan, 2023 - Present
         </p>
         <ul
           class="list-inside list-disc space-y-2 leading-snug text-slate-700"
         >
           <li>
-            Built the app from scratch, collaborating with design and API teams.
+            Built apps for insurance, banking, investments, and trading companies.
           </li>
           <li>
-            Responsible for the development and release processes of 3 apps.
+            Successfully led refactors, solving critical bugs, boosting performance.
           </li>
           <li>
-            Guided coworkers on adopting Git workflows and Scrum.
+            Architected a custom auth flow, syncing both mobile and web apps.
           </li>
           <li>
-            Provided training and mentorship to junior developers.
+            Implemented ADA and WCAG 2 compliant accessibility measures.
           </li>
         </ul>
       </div>

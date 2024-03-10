@@ -45,7 +45,14 @@ exports[`<Hero /> should render the heading 1`] = `
           mobile app development,
         </span>
          
-        passionate about crafting great user experiences and implementing beautiful designs.
+        passionate about crafting great user experiences and building
+         
+        <span
+          class="font-medium"
+        >
+          outstanding products
+        </span>
+        .
       </h3>
     </div>
   </div>

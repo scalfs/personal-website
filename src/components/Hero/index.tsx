@@ -18,8 +18,8 @@ const Hero = () => {
               I&apos;m a <span className="font-medium">software engineer</span>{' '}
               specialized in{' '}
               <span className="font-medium">mobile app development,</span>{' '}
-              passionate about crafting great user experiences and implementing
-              beautiful designs.
+              passionate about crafting great user experiences and building{' '}
+              <span className="font-medium">outstanding products</span>.
             </h3>
           </Transition>
         </div>
