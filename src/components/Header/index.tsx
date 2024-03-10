@@ -58,7 +58,7 @@ const Header = () => (
                 type="fadedown"
                 delay={(navigation.length + 1) * 150}
               >
-                <Button href="/resume.pdf">Resume</Button>
+                <Button href="/Resume - Vitor Escalfoni.pdf">Resume</Button>
               </Transition>
             </li>
           </ol>
@@ -99,7 +99,7 @@ const Header = () => (
               ))}
             </ol>
             <a
-              href="/resume.pdf"
+              href="/Resume - Vitor Escalfoni.pdf"
               className="block bg-slate-100 px-5 py-3 text-center text-lg font-medium text-blue-700 transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 focus:rounded-lg focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-700"
             >
               Resume

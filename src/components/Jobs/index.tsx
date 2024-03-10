@@ -3,6 +3,22 @@ import { KeyboardEvent, useEffect, useRef, useState } from 'react'
 
 const experiences = [
   {
+    title: 'Senior Software Engineer',
+    company: 'Praxent',
+    companyUrl: 'https://www.praxent.com',
+    androidUrl: '',
+    iosUrl: '',
+    icon: 'img/praxent-icon.webp',
+    range: 'Jan, 2023 - Present',
+    years: '1y+',
+    highlights: [
+      'Built apps for insurance, banking, investments, and trading companies.',
+      'Successfully led refactors, solving critical bugs, boosting performance.',
+      'Architected a custom auth flow, syncing both mobile and web apps.',
+      'Implemented ADA and WCAG 2 compliant accessibility measures.'
+    ]
+  },
+  {
     title: 'Mobile Developer',
     company: 'SlabWare',
     companyUrl: 'https://www.slabware.com',
@@ -10,7 +26,7 @@ const experiences = [
     iosUrl: '',
     icon: 'img/icon-slab.svg',
     range: 'Jan, 2020 - Feb, 2022',
-    years: '2y',
+    years: '2y+',
     highlights: [
       'Built the app from scratch, collaborating with design and API teams.',
       'Responsible for the development and release processes of 3 apps.',
@@ -26,9 +42,9 @@ const experiences = [
     iosUrl: '',
     icon: 'img/logo-wine.svg',
     range: 'Ago, 2018 - Dez, 2019',
-    years: '1y',
+    years: '1y+',
     highlights: [
-      'Started as an intern in the app team during its initial stage.',
+      'Started as an intern in the founding app team, building from the ground up.',
       'Implemented several features, including native payment integration.',
       'Onboarded new colleagues, instructing them on project standards.'
     ]
@@ -116,7 +132,7 @@ const Jobs = () => {
         ))}
       </div>
 
-      <div className="mx-auto rounded-r-lg p-4">
+      <div className="mx-auto items-start rounded-r-lg p-4">
         {experiences.map(
           ({ title, company, companyUrl, range, highlights }, i) => (
             <Transition key={company} show={activeTabId === i} type="fade">
@@ -127,7 +143,7 @@ const Jobs = () => {
                 hidden={activeTabId !== i}
                 aria-hidden={activeTabId !== i}
                 tabIndex={activeTabId === i ? 0 : -1}
-                className="rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
+                className="w-full rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
               >
                 <h2 className="mt-1 text-2xl font-semibold">
                   {title} @

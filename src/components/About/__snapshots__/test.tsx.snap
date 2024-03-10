@@ -17,13 +17,13 @@ exports[`<About /> should render the section 1`] = `
         About Me
       </h1>
       <p>
-        My first contact with programming was as a teenager, but I got to really explore it in Electrical Engineering college. During my time there I was part of a research lab working with robotics allied to computer vision and did my final project in speech processing using recurrent neural networks.
+        My first exposure with programming was as a teenager, but I truly delved into it during my time in Electrical Engineering college. While there, I was part of a research lab focused on robotics combined with computer vision. For my final project, I worked on speech processing using recurrent neural networks.
       </p>
       <p>
-        Started my professional journey as an intern at a large e-commerce company, being hired shortly after. Had a great experience working with app development and felt like I'd found my calling. Later, I had a terrific opportunity to lead the mobile project on an inventory management tech company with customers from all over the world.
+        During my professional journey I worked on small to large size companies, usually developing apps from the ground up, leading and collaborating with amazing developers. My current focus is on financial services consulting and engineering.
       </p>
       <p>
-        I'm constantly learning new things, specializing in frontend while broadening my knowledge in other areas. When I'm not working or in front of the computer, you may find me running, riding my bike everywhere, and spending time outdoors in nature. Otherwise, I'm mostly watching movies/series with my wife, cooking, playing the guitar, or entertaining our cat Juju.
+        I'm constantly learning new things, broadening my knowledge in technology and other areas. Ask me about my AI driven speech side project. When I'm not working or in front of the computer, you may find me reading, playing instruments, exercising and spending time in the nature. But most of the time, I'm invested in being present and spending quality time with my lovely family.
       </p>
     </div>
     <div
