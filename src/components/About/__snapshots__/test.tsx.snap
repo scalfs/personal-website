@@ -17,10 +17,10 @@ exports[`<About /> should render the section 1`] = `
         About Me
       </h1>
       <p>
-        My first exposure with programming was as a teenager, but I truly delved into it during my time in Electrical Engineering college. While there, I was part of a research lab focused on robotics combined with computer vision. For my final project, I worked on speech processing using recurrent neural networks.
+        My first exposure to programming was as a teenager, but I truly delved into it during my time in Electrical Engineering college. While there, I was part of a research lab focused on robotics combined with computer vision. For my final project, I worked on speech processing using recurrent neural networks.
       </p>
       <p>
-        During my professional journey I worked on small to large size companies, usually developing apps from the ground up, leading and collaborating with amazing developers. My current focus is on financial services consulting and engineering.
+        During my professional journey I worked on small to large size companies, usually developing apps from the ground up, leading and collaborating with amazing developers. Recently, my focus has been on contributing to the financial technology services industry through consulting and engineering.
       </p>
       <p>
         I'm constantly learning new things, broadening my knowledge in technology and other areas. Ask me about my AI driven speech side project. When I'm not working or in front of the computer, you may find me reading, playing instruments, exercising and spending time in the nature. But most of the time, I'm invested in being present and spending quality time with my lovely family.

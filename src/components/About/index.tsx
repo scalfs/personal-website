@@ -11,7 +11,7 @@ const About = () => {
         <div className="mb-8 space-y-4 text-justify md:mb-0 md:w-3/5">
           <Title>About Me</Title>
           <p>
-            My first exposure with programming was as a teenager, but I truly
+            My first exposure to programming was as a teenager, but I truly
             delved into it during my time in Electrical Engineering college.
             While there, I was part of a research lab focused on robotics
             combined with computer vision. For my final project, I worked on
@@ -20,8 +20,9 @@ const About = () => {
           <p>
             During my professional journey I worked on small to large size
             companies, usually developing apps from the ground up, leading and
-            collaborating with amazing developers. My current focus is on
-            financial services consulting and engineering.
+            collaborating with amazing developers. Recently, my focus has been
+            on contributing to the financial technology services industry
+            through consulting and engineering.
           </p>
           <p>
             I&apos;m constantly learning new things, broadening my knowledge in

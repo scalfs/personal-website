@@ -11,7 +11,7 @@ exports[`<Experience /> should render the section 1`] = `
     Work Experience
   </h1>
   <p>
-    I had the opportunity to be part of teams developing apps since the conception, going through design, release and mantainance cycles. Both companies I worked for were focused on technology and startup minded. I could learn and practice the development process while collaborating with other teams in fast paced environments.
+    I had the opportunity to be part of teams developing apps since the conception, going through design, release, growth and mantainance cycles. All companies I worked for were focused on technology and startup minded. I could contribute to the development process while collaborating with other teams in fast paced environments.
   </p>
   <div
     class="mt-4 flex min-h-[16rem] flex-row rounded-lg bg-gradient-to-br from-slate-100 to-slate-200/60"
@@ -48,15 +48,45 @@ exports[`<Experience /> should render the section 1`] = `
         <p
           class="hidden justify-center rounded bg-slate-200 px-1 py-0.5 text-center text-xs font-medium text-slate-500 md:block"
         >
-          1y+
+          1y
         </p>
       </button>
       <button
         aria-controls="panel-1"
-        aria-label="Tab SlabWare"
+        aria-label="Tab PicPlants"
         aria-selected="false"
         class="flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 "
         id="tab-1"
+        role="tab"
+        tabindex="-1"
+      >
+        <div
+          class="flex min-w-[1rem] items-center gap-2"
+        >
+          <img
+            aria-hidden="true"
+            height="16"
+            src="img/picplants-icon.png"
+            width="16"
+          />
+          <span
+            class="hidden sm:block"
+          >
+            PicPlants
+          </span>
+        </div>
+        <p
+          class="hidden justify-center rounded bg-slate-200 px-1 py-0.5 text-center text-xs font-medium text-slate-500 md:block"
+        >
+          6m
+        </p>
+      </button>
+      <button
+        aria-controls="panel-2"
+        aria-label="Tab SlabWare"
+        aria-selected="false"
+        class="flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 "
+        id="tab-2"
         role="tab"
         tabindex="-1"
       >
@@ -78,15 +108,15 @@ exports[`<Experience /> should render the section 1`] = `
         <p
           class="hidden justify-center rounded bg-slate-200 px-1 py-0.5 text-center text-xs font-medium text-slate-500 md:block"
         >
-          2y+
+          2y
         </p>
       </button>
       <button
-        aria-controls="panel-2"
+        aria-controls="panel-3"
         aria-label="Tab Wine"
         aria-selected="false"
         class="flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 "
-        id="tab-2"
+        id="tab-3"
         role="tab"
         tabindex="-1"
       >
@@ -108,7 +138,7 @@ exports[`<Experience /> should render the section 1`] = `
         <p
           class="hidden justify-center rounded bg-slate-200 px-1 py-0.5 text-center text-xs font-medium text-slate-500 md:block"
         >
-          1y+
+          1y
         </p>
       </button>
     </div>
