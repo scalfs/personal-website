@@ -10,10 +10,10 @@ const Experience = () => {
       <Title>Work Experience</Title>
       <p>
         I had the opportunity to be part of teams developing apps since the
-        conception, going through design, release and mantainance cycles. Both
-        companies I worked for were focused on technology and startup minded. I
-        could learn and practice the development process while collaborating
-        with other teams in fast paced environments.
+        conception, going through design, release, growth and mantainance
+        cycles. All companies I worked for were focused on technology and
+        startup minded. I could contribute to the development process while
+        collaborating with other teams in fast paced environments.
       </p>
       <Jobs />
     </section>

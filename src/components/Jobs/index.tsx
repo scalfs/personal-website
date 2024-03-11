@@ -10,7 +10,7 @@ const experiences = [
     iosUrl: '',
     icon: 'img/praxent-icon.webp',
     range: 'Jan, 2023 - Present',
-    years: '1y+',
+    years: '1y',
     highlights: [
       'Built apps for insurance, banking, investments, and trading companies.',
       'Successfully led refactors, solving critical bugs, boosting performance.',
@@ -19,14 +19,29 @@ const experiences = [
     ]
   },
   {
-    title: 'Mobile Developer',
+    title: 'Senior Software Engineer',
+    company: 'PicPlants',
+    companyUrl: 'https://www.picplants.com.br',
+    androidUrl: '',
+    iosUrl: '',
+    icon: 'img/picplants-icon.png',
+    range: 'Sep, 2022 - Mar, 2023',
+    years: '6m',
+    highlights: [
+      'Developed apps from end-to-end using Expo and React Native.',
+      'Implemented payments, in-app purchases, and subscriptions.',
+      'Provided consultancy on AR/VR projects for mobile apps.'
+    ]
+  },
+  {
+    title: 'Lead Mobile Developer',
     company: 'SlabWare',
     companyUrl: 'https://www.slabware.com',
     androidUrl: '',
     iosUrl: '',
     icon: 'img/icon-slab.svg',
     range: 'Jan, 2020 - Feb, 2022',
-    years: '2y+',
+    years: '2y',
     highlights: [
       'Built the app from scratch, collaborating with design and API teams.',
       'Responsible for the development and release processes of 3 apps.',
@@ -42,7 +57,7 @@ const experiences = [
     iosUrl: '',
     icon: 'img/logo-wine.svg',
     range: 'Ago, 2018 - Dez, 2019',
-    years: '1y+',
+    years: '1y',
     highlights: [
       'Started as an intern in the founding app team, building from the ground up.',
       'Implemented several features, including native payment integration.',
