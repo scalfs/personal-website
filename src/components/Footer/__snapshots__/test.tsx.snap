@@ -25,7 +25,7 @@ exports[`<Footer /> should render the section 1`] = `
     >
       <a
         aria-label="GitHub link"
-        class="flex h-10 w-10 items-center justify-center rounded-lg border bg-slate-100 p-2 transition-colors duration-250 ease-in-out-cubic hover:border-slate-400 hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50"
+        class="flex size-10 items-center justify-center rounded-lg border bg-slate-100 p-2 transition-colors duration-250 ease-in-out-cubic hover:border-slate-400 hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50"
         href="https://github.com/scalfs"
       >
         <svg
@@ -46,7 +46,7 @@ exports[`<Footer /> should render the section 1`] = `
       </a>
       <a
         aria-label="LinkedIn link"
-        class="flex h-10 w-10 items-center justify-center rounded-lg border bg-slate-100 p-2 transition-colors duration-250 ease-in-out-cubic hover:border-slate-400 hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50"
+        class="flex size-10 items-center justify-center rounded-lg border bg-slate-100 p-2 transition-colors duration-250 ease-in-out-cubic hover:border-slate-400 hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50"
         href="https://linkedin.com/in/vitorescalfoni"
       >
         <svg
@@ -71,7 +71,7 @@ exports[`<Footer /> should render the section 1`] = `
       </a>
       <a
         aria-label="Mail link"
-        class="flex h-10 w-10 items-center justify-center rounded-lg border bg-slate-100 p-2 transition-colors duration-250 ease-in-out-cubic hover:border-slate-400 hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50"
+        class="flex size-10 items-center justify-center rounded-lg border bg-slate-100 p-2 transition-colors duration-250 ease-in-out-cubic hover:border-slate-400 hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50"
         href="mailto:hello@vitorescalfoni.com"
       >
         <svg
@@ -97,4 +97,4 @@ exports[`<Footer /> should render the section 1`] = `
     </div>
   </div>
 </footer>
-`
+`;

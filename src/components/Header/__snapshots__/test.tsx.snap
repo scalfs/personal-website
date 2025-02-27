@@ -6,6 +6,7 @@ exports[`<Header /> should render all the nav options 1`] = `
 >
   <nav
     class="absolute w-full px-4 sm:px-6 sm:text-lg md:px-8"
+    data-headlessui-state=""
   >
     <div
       class="flex items-center pt-6 text-base"
@@ -14,24 +15,24 @@ exports[`<Header /> should render all the nav options 1`] = `
         class="-mx-1 flex grow items-center justify-between"
       >
         <div
-          class="duration-300 ease-in-out-cubic motion-reduce:transform-none opacity-0 -translate-y-4"
           style="transition-delay: undefinedms;"
         >
           <a
             aria-label="Home"
-            class="rounded-lg py-1 px-2 text-2xl font-semibold transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
+            class="rounded-lg px-2 py-1 text-2xl font-semibold transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
             href="#"
           >
             ~/
           </a>
         </div>
         <div
-          class="duration-300 ease-in-out-cubic motion-reduce:transform-none opacity-0 -translate-y-4"
+          class="duration-300 ease-in-out-cubic motion-reduce:transform-none opacity-100 translate-y-0"
           style="transition-delay: 500ms;"
         >
           <button
             aria-expanded="false"
-            class="h-10 w-10 rounded-md p-2 transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 sm:hidden"
+            class="size-10 rounded-md p-2 transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 sm:hidden"
+            data-headlessui-state=""
             id="headlessui-popover-button-:r0:"
             title="Menu"
             type="button"
@@ -61,7 +62,7 @@ exports[`<Header /> should render all the nav options 1`] = `
       >
         <li>
           <div
-            class="duration-300 ease-in-out-cubic motion-reduce:transform-none opacity-0 -translate-y-4"
+            class="duration-300 ease-in-out-cubic motion-reduce:transform-none opacity-100 translate-y-0"
             style="transition-delay: 150ms;"
           >
             <a
@@ -74,7 +75,7 @@ exports[`<Header /> should render all the nav options 1`] = `
         </li>
         <li>
           <div
-            class="duration-300 ease-in-out-cubic motion-reduce:transform-none opacity-0 -translate-y-4"
+            class="duration-300 ease-in-out-cubic motion-reduce:transform-none opacity-100 translate-y-0"
             style="transition-delay: 300ms;"
           >
             <a
@@ -87,7 +88,7 @@ exports[`<Header /> should render all the nav options 1`] = `
         </li>
         <li>
           <div
-            class="duration-300 ease-in-out-cubic motion-reduce:transform-none opacity-0 -translate-y-4"
+            class="duration-300 ease-in-out-cubic motion-reduce:transform-none opacity-100 translate-y-0"
             style="transition-delay: 450ms;"
           >
             <a
@@ -100,7 +101,7 @@ exports[`<Header /> should render all the nav options 1`] = `
         </li>
         <li>
           <div
-            class="duration-300 ease-in-out-cubic motion-reduce:transform-none opacity-0 -translate-y-4"
+            class="duration-300 ease-in-out-cubic motion-reduce:transform-none opacity-100 translate-y-0"
             style="transition-delay: 600ms;"
           >
             <a
@@ -115,5 +116,9 @@ exports[`<Header /> should render all the nav options 1`] = `
       </ol>
     </div>
   </nav>
+  <div
+    hidden=""
+    style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+  />
 </header>
-`
+`;
