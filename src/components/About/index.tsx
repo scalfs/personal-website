@@ -6,7 +6,7 @@ const About = () => {
   const refToContainer = useSR()
 
   return (
-    <section className="pt-8 pb-28" id="about" ref={refToContainer}>
+    <section className="pb-28 pt-8" id="about" ref={refToContainer}>
       <div className="md:flex md:flex-row-reverse md:gap-12">
         <div className="mb-8 space-y-4 text-justify md:mb-0 md:w-3/5">
           <Title>About Me</Title>

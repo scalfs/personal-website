@@ -114,7 +114,7 @@ const Jobs = () => {
   }
 
   return (
-    <div className="mt-4 flex min-h-[16rem] flex-row rounded-lg bg-gradient-to-br from-slate-100 to-slate-200/60">
+    <div className="mt-4 flex min-h-64 flex-row rounded-lg bg-gradient-to-br from-slate-100 to-slate-200/60">
       <div
         role="tablist"
         aria-label="Job tabs"
@@ -130,13 +130,13 @@ const Jobs = () => {
             aria-controls={`panel-${i}`}
             aria-selected={activeTabId === i}
             tabIndex={activeTabId === i ? 0 : -1}
-            ref={(el) => (tabs.current[i] = el)}
+            ref={(el) => void (tabs.current[i] = el)}
             onClick={() => setActiveTabId(i)}
             className={`flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 ${
               activeTabId === i ? 'bg-slate-100' : ''
             }`}
           >
-            <div className="flex min-w-[1rem] items-center gap-2">
+            <div className="flex min-w-4 items-center gap-2">
               <img src={icon} aria-hidden width={16} height={16} />
               <span className="hidden sm:block">{company}</span>
             </div>

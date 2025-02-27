@@ -14,7 +14,7 @@ exports[`<Experience /> should render the section 1`] = `
     I had the opportunity to be part of teams developing apps since the conception, going through design, release, growth and mantainance cycles. All companies I worked for were focused on technology and startup minded. I could contribute to the development process while collaborating with other teams in fast paced environments.
   </p>
   <div
-    class="mt-4 flex min-h-[16rem] flex-row rounded-lg bg-gradient-to-br from-slate-100 to-slate-200/60"
+    class="mt-4 flex min-h-64 flex-row rounded-lg bg-gradient-to-br from-slate-100 to-slate-200/60"
   >
     <div
       aria-label="Job tabs"
@@ -31,7 +31,7 @@ exports[`<Experience /> should render the section 1`] = `
         tabindex="0"
       >
         <div
-          class="flex min-w-[1rem] items-center gap-2"
+          class="flex min-w-4 items-center gap-2"
         >
           <img
             aria-hidden="true"
@@ -61,7 +61,7 @@ exports[`<Experience /> should render the section 1`] = `
         tabindex="-1"
       >
         <div
-          class="flex min-w-[1rem] items-center gap-2"
+          class="flex min-w-4 items-center gap-2"
         >
           <img
             aria-hidden="true"
@@ -91,7 +91,7 @@ exports[`<Experience /> should render the section 1`] = `
         tabindex="-1"
       >
         <div
-          class="flex min-w-[1rem] items-center gap-2"
+          class="flex min-w-4 items-center gap-2"
         >
           <img
             aria-hidden="true"
@@ -121,7 +121,7 @@ exports[`<Experience /> should render the section 1`] = `
         tabindex="-1"
       >
         <div
-          class="flex min-w-[1rem] items-center gap-2"
+          class="flex min-w-4 items-center gap-2"
         >
           <img
             aria-hidden="true"
@@ -192,4 +192,4 @@ exports[`<Experience /> should render the section 1`] = `
     </div>
   </div>
 </section>
-`
+`;
