@@ -1,8 +1,7 @@
 {
   "version": 2,
+  "framework": "nextjs",
   "buildCommand": "yarn build",
   "devCommand": "yarn dev",
-  "installCommand": "yarn install",
-  "framework": "nextjs",
-  "nodeVersion": "22.x"
+  "installCommand": "yarn install"
 }
