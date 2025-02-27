@@ -130,7 +130,7 @@ const Jobs = () => {
             aria-controls={`panel-${i}`}
             aria-selected={activeTabId === i}
             tabIndex={activeTabId === i ? 0 : -1}
-            ref={(el) => (tabs.current[i] = el)}
+            ref={(el) => void (tabs.current[i] = el)}
             onClick={() => setActiveTabId(i)}
             className={`flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 ${
               activeTabId === i ? 'bg-slate-100' : ''
