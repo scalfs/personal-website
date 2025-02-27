@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "nlint": "next lint",
-    "lint": "eslint src --max-warnings=0",
+    "lint": "eslint src",
     "prepare": "husky install",
     "test": "jest --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",

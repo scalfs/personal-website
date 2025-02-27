@@ -114,7 +114,7 @@ const Jobs = () => {
   }
 
   return (
-    <div className="mt-4 flex min-h-[16rem] flex-row rounded-lg bg-gradient-to-br from-slate-100 to-slate-200/60">
+    <div className="mt-4 flex min-h-64 flex-row rounded-lg bg-gradient-to-br from-slate-100 to-slate-200/60">
       <div
         role="tablist"
         aria-label="Job tabs"
@@ -136,7 +136,7 @@ const Jobs = () => {
               activeTabId === i ? 'bg-slate-100' : ''
             }`}
           >
-            <div className="flex min-w-[1rem] items-center gap-2">
+            <div className="flex min-w-4 items-center gap-2">
               <img src={icon} aria-hidden width={16} height={16} />
               <span className="hidden sm:block">{company}</span>
             </div>
