@@ -1,4 +1,3 @@
-
 <div align="center">
   <img alt="Logo" src="https://raw.githubusercontent.com/scalfs/personal-website/main/public/icon.svg" width="100" />
 </div>
@@ -32,12 +31,23 @@ This project uses the following technologies:
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 22.x or later
+- npm
+
+### Installation
+
+First, install the dependencies:
+
+```bash
+$ npm install
+```
+
+Then, run the development server:
 
 ```bash
 $ npm run dev
-# or
-$ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
