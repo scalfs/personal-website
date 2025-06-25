@@ -1,5 +1,6 @@
-import type { Metadata } from 'next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import Analytics from 'components/Analytics'
+import type { Metadata } from 'next'
 import '../styles/globals.css'
 
 export const metadata: Metadata = {
@@ -90,6 +91,7 @@ export default function RootLayout({
       <body>
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
