@@ -9,7 +9,7 @@ const Experience = () => {
     <section className="space-y-4 py-28" id="experience" ref={refToContainer}>
       <Title>Work Experience</Title>
       <p>
-        I had the opportunity to be part of teams developing apps since the
+        I had the opportunity to be part of teams developing products since the
         conception, going through design, release, growth and mantainance
         cycles. All companies I worked for were focused on technology and
         startup minded. I could contribute to the development process while

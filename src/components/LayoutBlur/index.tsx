@@ -14,9 +14,9 @@ const LayoutBlur = ({ type }: Props) => {
     case 'lines':
       return (
         <div aria-hidden>
-          <div className="absolute bottom-1/3 right-0 h-1 w-64 -rotate-45 translate-x-40 bg-sky-500 blur-lg" />
-          <div className="absolute bottom-1/3 right-16 h-1 w-64 -rotate-45 translate-x-40 bg-blue-500 blur-lg" />
-          <div className="absolute bottom-1/3 right-28 h-1 w-64 -rotate-45 translate-x-40 bg-blue-800 blur-lg" />
+          <div className="absolute bottom-1/3 right-0 h-1 w-64 translate-x-40 -rotate-45 bg-sky-500 blur-lg" />
+          <div className="absolute bottom-1/3 right-16 h-1 w-64 translate-x-40 -rotate-45 bg-blue-500 blur-lg" />
+          <div className="absolute bottom-1/3 right-28 h-1 w-64 translate-x-40 -rotate-45 bg-blue-800 blur-lg" />
         </div>
       )
     default:
