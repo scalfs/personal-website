@@ -3,16 +3,40 @@ import { KeyboardEvent, useEffect, useRef, useState } from 'react'
 
 const experiences = [
   {
-    title: 'Senior Software Engineer',
+    title: 'Senior Full-Stack Design Engineer',
+    company: 'StepChange',
+    companyUrl: 'https://www.tryapx.com',
+    androidUrl: '',
+    iosUrl: '',
+    icon: 'img/apx-icon.svg',
+    range: 'Apr, 2025 - Present',
+    years: '3m',
+    highlights: [
+      'Developing user-centric interfaces with Next.js, React, and Tailwind CSS for an exceptional developer experience.',
+      'Implementing efficient API interactions and state management using React Query.',
+      'Collaborating with backend engineers to optimize data flow and system performance.',
+      'Enhancing the UX of AI-generated insights to make them actionable for developers.',
+      'Rebuilt the marketing website with a modern, vibrant look, increasing conversion rates.',
+      'Connected main integrations to APX, including MongoDB, Linear, and Plane.so.',
+      'Added media upload capabilities for images and videos on Issues and Comments.',
+      'Driving growth with Posthog analytics events and data pipelines.'
+    ]
+  },
+  {
+    title: 'Staff Software Engineer',
     company: 'Praxent',
     companyUrl: 'https://www.praxent.com',
     androidUrl: '',
     iosUrl: '',
     icon: 'img/praxent-icon.webp',
-    range: 'Jan, 2023 - Present',
-    years: '1y',
+    range: 'Jan, 2023 - Apr, 2025',
+    years: '2y',
     highlights: [
-      'Built apps for insurance, banking, investments, and trading companies.',
+      'Led optimization initiatives for a white-label banking SaaS platform processing $2B in transfers annually',
+      'Spearheaded complete web application refactoring with ADA and WCAG 2 compliance implementation',
+      'Engineered custom authentication flow with biometrics integration for mobile and web applications',
+      'Reduced third-party API costs by 95% while maintaining optimal user experience',
+      'Built apps for insurance, banking, investments, and trading companies',
       'Successfully led refactors, solving critical bugs, boosting performance.',
       'Architected a custom auth flow, syncing both mobile and web apps.',
       'Implemented ADA and WCAG 2 compliant accessibility measures.'
@@ -34,7 +58,7 @@ const experiences = [
     ]
   },
   {
-    title: 'Lead Mobile Developer',
+    title: 'Mobile Tech Lead',
     company: 'SlabWare',
     companyUrl: 'https://www.slabware.com',
     androidUrl: '',
@@ -172,7 +196,7 @@ const Jobs = () => {
                   </a>
                 </h2>
                 <p className="mb-4">{range}</p>
-                <ul className="list-inside list-disc space-y-2 leading-snug text-slate-700">
+                <ul className="max-w-2xl list-inside list-disc space-y-2 leading-snug text-slate-700 ">
                   {highlights.map((txt) => (
                     <li key={txt}>{txt}</li>
                   ))}

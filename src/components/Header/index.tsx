@@ -74,14 +74,14 @@ const Header = () => (
             <div className="mb-2 flex items-center justify-between px-5 pt-4">
               <Popover.Button
                 aria-label="Home"
-                className="rounded-lg px-3 py-1 -ml-3 text-2xl font-semibold transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
+                className="-ml-3 rounded-lg px-3 py-1 text-2xl font-semibold transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
               >
                 ~/
               </Popover.Button>
 
               <Popover.Button
                 aria-label="Close Menu"
-                className="size-10 rounded-lg p-2 -mr-2 transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
+                className="-mr-2 size-10 rounded-lg p-2 transition-colors duration-250 ease-in-out-cubic hover:bg-blue-100 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2"
               >
                 <IconX />
               </Popover.Button>

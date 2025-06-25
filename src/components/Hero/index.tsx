@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="flex h-screen">
       <Transition timeout={750} type="none">
-        <div className="my-auto max-w-xl space-y-4 text-justify text-xl sm:text-2xl">
+        <div className="my-auto max-w-2xl space-y-4 text-justify text-xl sm:text-2xl">
           <Transition isChild type="fadeup">
             <h1>Hi, there! My name is</h1>
           </Transition>
@@ -15,11 +15,19 @@ const Hero = () => {
           </Transition>
           <Transition isChild delay={300} type="fadeup">
             <h3>
-              I&apos;m a <span className="font-medium">software engineer</span>{' '}
-              specialized in{' '}
-              <span className="font-medium">mobile app development,</span>{' '}
-              passionate about crafting great user experiences and building{' '}
-              <span className="font-medium">outstanding products</span>.
+              A{' '}
+              <span className="font-medium">
+                product-minded software engineer
+              </span>{' '}
+              who combines technical expertise with{' '}
+              <span className="font-medium">AI-driven innovation</span> to take
+              products{' '}
+              <span className="font-medium">from 0 to 1 and beyond</span>,
+              building transformative solutions that{' '}
+              <span className="font-medium">
+                users love and businesses scale
+              </span>
+              .
             </h3>
           </Transition>
         </div>
