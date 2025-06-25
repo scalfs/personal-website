@@ -4,7 +4,7 @@ import { KeyboardEvent, useEffect, useRef, useState } from 'react'
 const experiences = [
   {
     title: 'Senior Full-Stack Design Engineer',
-    company: 'APX StepChange',
+    company: 'StepChange',
     companyUrl: 'https://www.tryapx.com',
     androidUrl: '',
     iosUrl: '',
