@@ -11,7 +11,7 @@ exports[`<Experience /> should render the section 1`] = `
     Work Experience
   </h1>
   <p>
-    I had the opportunity to be part of teams developing apps since the conception, going through design, release, growth and mantainance cycles. All companies I worked for were focused on technology and startup minded. I could contribute to the development process while collaborating with other teams in fast paced environments.
+    I had the opportunity to be part of teams developing products since the conception, going through design, release, growth and mantainance cycles. All companies I worked for were focused on technology and startup minded. I could contribute to the development process while collaborating with other teams in fast paced environments.
   </p>
   <div
     class="mt-4 flex min-h-64 flex-row rounded-lg bg-gradient-to-br from-slate-100 to-slate-200/60"
@@ -23,12 +23,42 @@ exports[`<Experience /> should render the section 1`] = `
     >
       <button
         aria-controls="panel-0"
-        aria-label="Tab Praxent"
+        aria-label="Tab StepChange"
         aria-selected="true"
         class="flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 bg-slate-100"
         id="tab-0"
         role="tab"
         tabindex="0"
+      >
+        <div
+          class="flex min-w-4 items-center gap-2"
+        >
+          <img
+            aria-hidden="true"
+            height="16"
+            src="img/apx-icon.svg"
+            width="16"
+          />
+          <span
+            class="hidden sm:block"
+          >
+            StepChange
+          </span>
+        </div>
+        <p
+          class="hidden justify-center rounded bg-slate-200 px-1 py-0.5 text-center text-xs font-medium text-slate-500 md:block"
+        >
+          3m
+        </p>
+      </button>
+      <button
+        aria-controls="panel-1"
+        aria-label="Tab Praxent"
+        aria-selected="false"
+        class="flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 "
+        id="tab-1"
+        role="tab"
+        tabindex="-1"
       >
         <div
           class="flex min-w-4 items-center gap-2"
@@ -48,15 +78,15 @@ exports[`<Experience /> should render the section 1`] = `
         <p
           class="hidden justify-center rounded bg-slate-200 px-1 py-0.5 text-center text-xs font-medium text-slate-500 md:block"
         >
-          1y
+          2y
         </p>
       </button>
       <button
-        aria-controls="panel-1"
+        aria-controls="panel-2"
         aria-label="Tab PicPlants"
         aria-selected="false"
         class="flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 "
-        id="tab-1"
+        id="tab-2"
         role="tab"
         tabindex="-1"
       >
@@ -82,11 +112,11 @@ exports[`<Experience /> should render the section 1`] = `
         </p>
       </button>
       <button
-        aria-controls="panel-2"
+        aria-controls="panel-3"
         aria-label="Tab SlabWare"
         aria-selected="false"
         class="flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 "
-        id="tab-2"
+        id="tab-3"
         role="tab"
         tabindex="-1"
       >
@@ -112,11 +142,11 @@ exports[`<Experience /> should render the section 1`] = `
         </p>
       </button>
       <button
-        aria-controls="panel-3"
+        aria-controls="panel-4"
         aria-label="Tab Wine"
         aria-selected="false"
         class="flex w-full items-center justify-between rounded-lg px-3 py-2 outline-none transition-colors duration-250 ease-in-out-cubic hover:bg-slate-100 focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-50 "
-        id="tab-3"
+        id="tab-4"
         role="tab"
         tabindex="-1"
       >
@@ -156,36 +186,48 @@ exports[`<Experience /> should render the section 1`] = `
         <h2
           class="mt-1 text-2xl font-semibold"
         >
-          Senior Software Engineer
+          Senior Full-Stack Design Engineer
            @
           <a
             class="link-underline relative ml-1 rounded tracking-tight text-blue-700  focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 focus:ring-offset-slate-100"
-            href="https://www.praxent.com"
+            href="https://www.tryapx.com"
             rel="noreferrer"
             target="_blank"
           >
-            Praxent
+            StepChange
           </a>
         </h2>
         <p
           class="mb-4"
         >
-          Jan, 2023 - Present
+          Apr, 2025 - Present
         </p>
         <ul
-          class="list-inside list-disc space-y-2 leading-snug text-slate-700"
+          class="max-w-2xl list-inside list-disc space-y-2 leading-snug text-slate-700 "
         >
           <li>
-            Built apps for insurance, banking, investments, and trading companies.
+            Developing user-centric interfaces with Next.js, React, and Tailwind CSS for an exceptional developer experience.
           </li>
           <li>
-            Successfully led refactors, solving critical bugs, boosting performance.
+            Implementing efficient API interactions and state management using React Query.
           </li>
           <li>
-            Architected a custom auth flow, syncing both mobile and web apps.
+            Collaborating with backend engineers to optimize data flow and system performance.
           </li>
           <li>
-            Implemented ADA and WCAG 2 compliant accessibility measures.
+            Enhancing the UX of AI-generated insights to make them actionable for developers.
+          </li>
+          <li>
+            Rebuilt the marketing website with a modern, vibrant look, increasing conversion rates.
+          </li>
+          <li>
+            Connected main integrations to APX, including MongoDB, Linear, and Plane.so.
+          </li>
+          <li>
+            Added media upload capabilities for images and videos on Issues and Comments.
+          </li>
+          <li>
+            Driving growth with Posthog analytics events and data pipelines.
           </li>
         </ul>
       </div>
