@@ -5,7 +5,7 @@ const experiences = [
   {
     title: 'CTO & Co-founder',
     company: 'Speach',
-    companyUrl: '',
+    companyUrl: 'https://speach.studio',
     androidUrl: '',
     iosUrl: '',
     icon: 'img/icon-speach.png',
@@ -19,7 +19,7 @@ const experiences = [
   },
   {
     title: 'Senior Full-Stack Product Engineer',
-    company: 'APX StepChange',
+    company: 'StepChange',
     companyUrl: 'https://www.tryapx.com',
     androidUrl: '',
     iosUrl: '',
@@ -92,7 +92,7 @@ const experiences = [
     range: 'Aug, 2018 - Dec, 2019',
     years: '1y 5m',
     highlights: [
-      'Wine is Latin America\'s largest wine e-commerce platform with 400K subscribers. Joined the initial mobile team and built the foundation for Wine\'s mobile apps (4.8 star rating, 1M+ downloads) using React Native.',
+      "Wine is Latin America's largest wine e-commerce platform with 400K subscribers. Joined the initial mobile team and built the foundation for Wine's mobile apps (4.8 star rating, 1M+ downloads) using React Native.",
       'Implemented core features such as native payment integrations and search while mentoring new team members.'
     ]
   }
