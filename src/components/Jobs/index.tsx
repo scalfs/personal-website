@@ -3,23 +3,38 @@ import { KeyboardEvent, useEffect, useRef, useState } from 'react'
 
 const experiences = [
   {
-    title: 'Senior Full-Stack Design Engineer',
+    title: 'CTO & Co-founder',
+    company: 'Speach',
+    companyUrl: 'https://speach.studio',
+    androidUrl: '',
+    iosUrl: '',
+    icon: 'img/icon-speach.png',
+    range: 'Nov, 2024 - Feb, 2026',
+    years: '1y 4m',
+    highlights: [
+      'Co-founded and solo developed Speach, an AI-powered SaaS for voice professionals and brand communication.',
+      'Engineered low-latency voice AI inference through streaming APIs, enabling real-time audio processing for commercial spots, video narrations, audiobooks, and podcasts.',
+      'Managed full product lifecycle including business model, UX design, technical architecture, and go-to-market.'
+    ]
+  },
+  {
+    title: 'Senior Full-Stack Product Engineer',
     company: 'StepChange',
     companyUrl: 'https://www.tryapx.com',
     androidUrl: '',
     iosUrl: '',
     icon: 'img/apx-icon.svg',
-    range: 'Apr, 2025 - Present',
-    years: '3m',
+    range: 'Apr, 2025 - Aug, 2025',
+    years: '5m',
     highlights: [
-      'Developing user-centric interfaces with Next.js, React, and Tailwind CSS for an exceptional developer experience.',
-      'Implementing efficient API interactions and state management using React Query.',
-      'Collaborating with backend engineers to optimize data flow and system performance.',
-      'Enhancing the UX of AI-generated insights to make them actionable for developers.',
-      'Rebuilt the marketing website with a modern, vibrant look, increasing conversion rates.',
-      'Connected main integrations to APX, including MongoDB, Linear, and Plane.so.',
-      'Added media upload capabilities for images and videos on Issues and Comments.',
-      'Driving growth with Posthog analytics events and data pipelines.'
+      'Building agentic observability tools that detect, diagnose, and resolve performance, reliability, and cost issues in modern applications.',
+      'Architected developer-centric interfaces, improving platform adoption and user engagement.',
+      'Redesigned and rebuilt marketing website and invitation flow, driving measurable increase in conversion rates.',
+      'Integrated critical third-party services (MongoDB, Linear, Plane.so) expanding platform capabilities.',
+      'Implemented multimedia support for issues and comments, enhancing team collaboration features.',
+      'Optimized API interactions and state management with React Query, reducing load times.',
+      'Established data-driven decision making through Posthog analytics implementation and pipeline development.',
+      'Built end-to-end features, developing backend APIs while optimizing frontend data flow for AI insight delivery.'
     ]
   },
   {
@@ -30,31 +45,27 @@ const experiences = [
     iosUrl: '',
     icon: 'img/praxent-icon.webp',
     range: 'Jan, 2023 - Apr, 2025',
-    years: '2y',
+    years: '2y 4m',
     highlights: [
-      'Led optimization initiatives for a white-label banking SaaS platform processing $2B in transfers annually',
-      'Spearheaded complete web application refactoring with ADA and WCAG 2 compliance implementation',
-      'Engineered custom authentication flow with biometrics integration for mobile and web applications',
-      'Reduced third-party API costs by 95% while maintaining optimal user experience',
-      'Built apps for insurance, banking, investments, and trading companies',
-      'Successfully led refactors, solving critical bugs, boosting performance.',
-      'Architected a custom auth flow, syncing both mobile and web apps.',
-      'Implemented ADA and WCAG 2 compliant accessibility measures.'
+      'At Praxent, a fintech-focused software development partner that helps financial companies excel with a track record of over 450 digital transformations.',
+      'Helped a white-label banking SaaS application process $2B in transfers in the past year and support thousands of daily access. Cut 95% of costs in third-party API consumption without compromising user experience.',
+      'Fully refactored a web application, implementing ADA and WCAG 2 compliant accessibility measures.',
+      'Contributed to projects for insurance, banking, investments, and trading companies, successfully leading refactors, solving critical bugs and boosting performance.'
     ]
   },
   {
-    title: 'Senior Software Engineer',
+    title: 'Lead Software Engineer',
     company: 'PicPlants',
     companyUrl: 'https://www.picplants.com.br',
     androidUrl: '',
     iosUrl: '',
     icon: 'img/picplants-icon.png',
-    range: 'Sep, 2022 - Mar, 2023',
-    years: '6m',
+    range: 'Mar, 2022 - Mar, 2023',
+    years: '1y',
     highlights: [
-      'Developed apps from end-to-end using Expo and React Native.',
-      'Implemented payments, in-app purchases, and subscriptions.',
-      'Provided consultancy on AR/VR projects for mobile apps.'
+      'Developed PicPlants, a cross-platform mobile app for houseplant enthusiasts with 10k+ downloads and 4-star rating, built with Expo and React Native.',
+      'Implemented complete payment infrastructure including in-app purchases and subscriptions for both app stores.',
+      'Integrated augmented reality features for plant visualization and AI-powered plant identification and health diagnosis through image analysis.'
     ]
   },
   {
@@ -67,10 +78,8 @@ const experiences = [
     range: 'Jan, 2020 - Feb, 2022',
     years: '2y',
     highlights: [
-      'Built the app from scratch, collaborating with design and API teams.',
-      'Responsible for the development and release processes of 3 apps.',
-      'Guided coworkers on adopting Git workflows and Scrum.',
-      'Provided training and mentorship to junior developers.'
+      'Developed React Native enterprise apps from scratch for SlabWare, a global stone industry platform with hundreds of subscribers, enabling warehouse stock management and ordering with offline and camera capabilities.',
+      'Led development architecture, release cycles, and mentored peers while collaborating with UI and backend teams.'
     ]
   },
   {
@@ -80,12 +89,11 @@ const experiences = [
     androidUrl: '',
     iosUrl: '',
     icon: 'img/logo-wine.svg',
-    range: 'Ago, 2018 - Dez, 2019',
-    years: '1y',
+    range: 'Aug, 2018 - Dec, 2019',
+    years: '1y 5m',
     highlights: [
-      'Started as an intern in the founding app team, building from the ground up.',
-      'Implemented several features, including native payment integration.',
-      'Onboarded new colleagues, instructing them on project standards.'
+      "Wine is Latin America's largest wine e-commerce platform with 400K subscribers. Joined the initial mobile team and built the foundation for Wine's mobile apps (4.8 star rating, 1M+ downloads) using React Native.",
+      'Implemented core features such as native payment integrations and search while mentoring new team members.'
     ]
   }
 ]
